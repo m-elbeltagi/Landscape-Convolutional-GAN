@@ -16,9 +16,9 @@ plt.style.use('seaborn-whitegrid')
 ## this implementation follows some (not all because a few didn't lead to convergence when training) tips & tricks from the 'ganhack' github post, experimentally tested techniques that improve performance 
 
 ## for saving the trained model params
-save_path = r'C:\Users\M\OneDrive - Carleton University\Documents\my_stuff\Projects\DCGAN'
+save_path = r'C:\Users\' ## put youir save path here
 
-train_image_path = r'C:\Users\M\OneDrive - Carleton University\Documents\my_stuff\Projects\DCGAN\faces_train_images'
+train_image_path = r'' ## put the training forlder path here
 
 ## setting device
 if torch.cuda.is_available():
@@ -287,8 +287,8 @@ def start_train_loop(save_model=True):
             
             
     if save_model == True:
-        torch.save(generator.state_dict(), save_path + r'\generator_v4_2ndRun_trained_weights.pt')
-        torch.save(discriminator.state_dict(), save_path + r'\discriminator_v4_2ndRun_trained_weights.pt')
+        torch.save(generator.state_dict(), save_path + r'\generator_trained_weights.pt')
+        torch.save(discriminator.state_dict(), save_path + r'\discriminator_trained_weights.pt')
     print('Finsih time is: {} \n'.format(datetime.datetime.now()))
             
         
