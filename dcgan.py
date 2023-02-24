@@ -16,7 +16,7 @@ plt.style.use('seaborn-whitegrid')
 ## this implementation follows some (not all because a few didn't lead to convergence when training) tips & tricks from the 'ganhack' github post, experimentally tested techniques that improve performance 
 
 ## for saving the trained model params
-save_path = r'C:\Users\' ## put youir save path here
+save_path = r'C:\Users\' ## put your save path here
 
 train_image_path = r'' ## put the training forlder path here
 
