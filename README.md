@@ -27,7 +27,7 @@ The code is commented to describe what each step does. Some of the commments (de
 </p>
 
 
-### Sample output from the network:
+### Sample of what the output from the network would look like:
 
 <p align="center">
   <img src="/DCGAN_example_output.jpg?raw=true" width="512" height="201"/>
