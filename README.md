@@ -6,4 +6,4 @@ This is based on the concept of an adversarial network, but with the generator a
 </p>
 The loading of the training dataset, definition og both generator and discriminator networks, the training loop, as well a s the function used for loading the trained weights and generating images are all in the **dcgan.py** file.
 The code is commented to describe what each step does. Some of the commments (depending on their length) are to the right of the code blocks.
-[#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
+
