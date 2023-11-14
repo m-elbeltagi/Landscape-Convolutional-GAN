@@ -19,3 +19,8 @@ The loading of the training dataset, definition og both generator and discrimina
 
 The code is commented to describe what each step does. Some of the commments (depending on their length) are to the right of the code blocks.
 
+The trinaing losses:
+
+<p align="center">
+  <img src="/training_losses.png?raw=true" width="800" height="444"/>
+</p>
