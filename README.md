@@ -4,6 +4,7 @@ This is based on the concept of an adversarial network, but with the generator a
 <p align="center">
   <img src="/DCGAN.jpg?raw=true" width="800" height="238"/>
 </p>
+
 <https://www.microsoft.com/en-us/research/blog/how-can-generative-adversarial-networks-learn-real-life-distributions-easily/>
 
 The loading of the training dataset, definition og both generator and discriminator networks, the training loop, as well a s the function used for loading the trained weights and generating images are all in the **dcgan.py** file.
