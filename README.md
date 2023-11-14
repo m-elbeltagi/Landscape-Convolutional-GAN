@@ -9,9 +9,9 @@ This is based on the concept of an adversarial network, but with the Generator a
 
 The loss of the Discriminator is based on whether the input image to it was in the training set, or came from the Generator. The loss of the Generator is based on the Discriminator's output/label, in a sense, the more its able to fool the Discriminator, the less it gets its weight updated via gradient descent because its doing a "good job", but if it gets discovered by the Discriminator, it gets a larger weight update because it doing a bad "job". This process continues in the training loop untill the discriminator can't tell the difference between real and generated images (it picks the label of each with p=0.5).
 
-$L_D = \mathop{max}_{D} ; log(D(x)) + log(1-D(G(z)))$
+$L_D = \mathop{max}_{D} ; \space log(D(x)) + log(1-D(G(z)))$
 
-$L_G = \mathop{min}_{G} ; log(1-D(G(z)))$
+$L_G = \mathop{min}_{G} ; \space log(1-D(G(z)))$
 
 
 The loading of the training dataset, definition og both generator and discriminator networks, the training loop, as well a s the function used for loading the trained weights and generating images are all in the **dcgan.py** file.
