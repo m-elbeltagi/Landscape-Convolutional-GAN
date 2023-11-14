@@ -10,6 +10,7 @@ This is based on the concept of an adversarial network, but with the Generator a
 The loss of the Discriminator is based on whether the input image to it was in the training set, or came from the Generator. The loss of the Generator is based on the Discriminator's output/label, in a sense, the more its able to fool the Discriminator, the less it gets its weight updated via gradient descent because its doing a "good job", but if it gets discovered by the Discriminator, it gets a larger weight update because it doing a bad "job". This process continues in the training loop untill the discriminator can't tell the difference between real and generated images (it picks the label of each with p=0.5).
 
 $L_D = {max}_D log(D(x)) + log(1-D(G(z)))$
+
 $L_G = {min}_G log(1-D(G(z)))$
 
 
