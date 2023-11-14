@@ -1,4 +1,5 @@
-# DCGAN
+# Landscape-Convolutional-GAN
+
 A deep convolutional generative adversarial network that I trained to generate images of landscapes with 3 color channels.
 This is based on the concept of an adversarial network, but with the Generator and Discriminator networks being composed of convolutional networks, which are better suited for dealing with images.
 <p align="center">
