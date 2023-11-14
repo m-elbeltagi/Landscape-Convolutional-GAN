@@ -30,5 +30,5 @@ The code is commented to describe what each step does. Some of the commments (de
 ### Sample output from the network:
 
 <p align="center">
-  <img src="/DCGAN_example_output.png?raw=true" width="512" height="201"/>
+  <img src="/DCGAN_example_output.png?raw=true" width="256" height="100"/>
 </p>
