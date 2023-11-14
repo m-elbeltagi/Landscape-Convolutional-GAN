@@ -16,5 +16,6 @@ $L_G = \mathop{min}_{G} ; \space log(1-D(G(z)))$
 Where $x$ is an image from the trianing set, $z$ is random noise from the latent space that the Generator uses to produce images, $D$ is the Discriminator, $G$ is the Generator. This is just the **_binary cross entropy loss_**.
 
 The loading of the training dataset, definition og both generator and discriminator networks, the training loop, as well a s the function used for loading the trained weights and generating images are all in the **dcgan.py** file.
+
 The code is commented to describe what each step does. Some of the commments (depending on their length) are to the right of the code blocks.
 
